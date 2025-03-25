@@ -1,0 +1,29 @@
+# _config.yml
+title: My Learning Blog
+description: 记录我的成长之路 ✨
+theme: minima
+
+# information about the author
+author:
+  name: Kuangdong Sun
+  email: sunkuangdong@gmail.com & ksun5@depaul.edu
+
+# navigation bar
+nav:
+  - Home: /
+  - About: /about
+  - Contact: /contact
+
+# pagination
+paginate: 10
+paginate_path: "/page:num"
+
+# categories
+categories:
+  - Distributed System
+  - Cloud Computing
+  - Big Data
+  - Machine Learning
+  - Deep Learning
+  - Computer Vision
+  - Natural Language Processing
