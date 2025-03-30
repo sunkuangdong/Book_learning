@@ -62,3 +62,25 @@ An Open distributed system is one that offers a standard interface for users to 
 #### 4. Scalability
 
 The capacity of a system too difficult to scale up when the number of users or the amount of data grows.
+
+#### 5. Pitfalls
+
+We need to consider the following pitfalls:
+1. The network is reliable.
+2. The network is secure.
+3. The network is homogeneous.
+4. The topology does not change.
+5. Latency is zero.
+6. Bandwidth is infinite.
+7. Transport cost is zero.
+8. There is one administrator.
+
+## TYPES OF DISTRIBUTED SYSTEMS
+
+#### Distributed Computing Systems
+1. Cluster Computing Systems (homogeneity)
+2. Grid Computing Systems (heterogeneity)
+#### distributed information systems
+
+#### distributed embedded systems
+
