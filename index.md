@@ -12,7 +12,7 @@ I record all the content about CS, system, distributed, development, and reading
 
 #### Distributed systems principles and paradigms
 
-I will record the book name is Distributed systems principles and paradigms. You can see the summary of the book in the [Distributed systems principles and paradigms folder](/distribute_system_basic.html).
+I will record the book name is Distributed systems principles and paradigms. You can see the summary of the book in the [Distributed systems principles and paradigms folder](https://github.com/sunkuangdong/Book_learning/blob/main/Distributed_systems_principles_and_paradigms/distribute_system_basic.html).
 
 
 
