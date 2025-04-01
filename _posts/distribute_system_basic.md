@@ -80,7 +80,14 @@ We need to consider the following pitfalls:
 #### Distributed Computing Systems
 1. Cluster Computing Systems (homogeneity)
 2. Grid Computing Systems (heterogeneity)
-#### distributed information systems
+#### Distributed Information Systems
+1. Transaction Processing Systems
+2. Enterprise Application Integration
+#### Distributed Pervasive Systems
+1. Home Systems
+2. Electronic Health Care Systems
+3. Sensor Networks
 
-#### distributed embedded systems
+## Summary
 
+This chapter introduces the basic concepts of distributed systems.
