@@ -1,8 +1,6 @@
 ---
 layout: Home
 title: Computer Science, System, Distributed, Development, and Reading Notes
-categories: Distributed-System
-permalink: /Distributed-System/distribute-system-basic.html
 ---
 
 # 👋 Welcome!

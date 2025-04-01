@@ -2,7 +2,6 @@
 title: My Learning Blog
 description: Record my path of growth ✨
 theme: minima
-url: "https://sunkuangdong.github.io"
 
 # information about the author
 author:
@@ -17,7 +16,7 @@ nav:
 
 # pagination
 paginate: 10
-permalink: /:categories/:title.html
+paginate_path: "/page:num"
 
 # categories
 categories:
