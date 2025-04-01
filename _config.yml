@@ -20,10 +20,4 @@ paginate_path: "/page:num"
 
 # categories
 categories:
-  - Distributed System
-  - Cloud Computing
-  - Big Data
-  - Machine Learning
-  - Deep Learning
-  - Computer Vision
-  - Natural Language Processing
+  - Distributed_systems_principles_and_paradigms
