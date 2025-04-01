@@ -1,7 +1,8 @@
 # _config.yml
 title: My Learning Blog
-description: 记录我的成长之路 ✨
+description: Record my path of growth ✨
 theme: minima
+url: "https://sunkuangdong.github.io"
 
 # information about the author
 author:
@@ -16,7 +17,7 @@ nav:
 
 # pagination
 paginate: 10
-paginate_path: "/page:num"
+permalink: /:categories/:title.html
 
 # categories
 categories:
