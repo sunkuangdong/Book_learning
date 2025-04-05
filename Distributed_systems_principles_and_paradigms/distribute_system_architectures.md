@@ -31,4 +31,5 @@ Application Layering：
 3. The data level
     - The data level manages the actual data that is being acted on.
 
+![image.png](../assets/image5.png)
 

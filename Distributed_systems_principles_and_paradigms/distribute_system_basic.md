@@ -35,7 +35,7 @@ If you want these devices to collaborate on a task, direct development becomes e
 
 - There are significant differences in hardware performance
 
-![image.png](../assets/image.png)
+![image.png](../assets/image_1.png)
 
 #### Middleware
 
