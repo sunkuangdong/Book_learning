@@ -37,4 +37,4 @@ This is a a three-tiered architecture.
 ![image.png](../assets/image6.png)
 
 #### 2.2 Decentralized Architectures
-
+Peer-to-Peer Architectures：
