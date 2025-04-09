@@ -43,11 +43,43 @@ This is a a three-tiered architecture.
 
 2. Unstructured Peer-to- Peer Architectures：
     - Unstructured peer-to-peer systems largely rely on randomized algorithms for constructing an overlay network.
+
 3. Topology Management of Overlay Networks
     - The lowest layers of the overlay network are random overlay networks.
     - The higher layers of the overlay network are structured overlay networks.
 ![image.png](../assets/image7.png)
 
 4. Superpeers
+    - In unstructured peer-to-peer systems, locating relevant data items is a challenge.
+![image.png](../assets/image8.png)
 
+#### Hybrid Architectures
+
+In this section we take a look at some specific classes of distributed systems in which client-server solutions are combined with decentralized architectures.
+
+1. Edge-Server Systems
+    - End users, or clients in general, connect to the Internet by means of an edge server. The edge server's main purpose is to serve content, possibly after applying filtering and transcoding functions.
+![image.png](../assets/image9.png)
+
+2. Collaborative Distributed Systems
+    - Collaborative distributed systems are characterized by the fact that the back-end is decentralized, but the client-server architecture is preserved.
+![image.png](../assets/image10.png)
+
+#### 2.3 ARCHITECTURES VERSUS MIDDLEW ARE
+A question that comes to mind is where middleware fits in.
+
+##### 2.3.1 Interceptors
+- By the layer by layer invocation of interceptors, the middleware can be handle the message by sparate as fragments and then integrate them into the lower layers.
+![image.png](../assets/image11.png)
+
+##### 2.3.2 General Approaches to Adaptive Software
+Three basic techniques to come to software adaptation:
+1. Separation of concerns 
+2. Computational reflection 
+    - Computational reflection refers to the ability of a program to inspect itself and, if necessary, adapt its behavior
+3. Component-based design
+    - Component-based design supports adaptation through composition.
+##### 2.3.3 Discussion
+
+##### 2.3.4 Layered Architectures
 
