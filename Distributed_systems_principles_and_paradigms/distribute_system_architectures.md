@@ -37,4 +37,17 @@ This is a a three-tiered architecture.
 ![image.png](../assets/image6.png)
 
 #### 2.2 Decentralized Architectures
-Peer-to-Peer Architectures：
+
+1. Peer-to-Peer Architectures：
+    - In a structured peer-to-peer architecture, the overlay network(Such as VPN) is constructed using a deterministic procedure. 
+
+2. Unstructured Peer-to- Peer Architectures：
+    - Unstructured peer-to-peer systems largely rely on randomized algorithms for constructing an overlay network.
+3. Topology Management of Overlay Networks
+    - The lowest layers of the overlay network are random overlay networks.
+    - The higher layers of the overlay network are structured overlay networks.
+![image.png](../assets/image7.png)
+
+4. Superpeers
+
+
