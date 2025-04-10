@@ -80,6 +80,45 @@ Three basic techniques to come to software adaptation:
 3. Component-based design
     - Component-based design supports adaptation through composition.
 ##### 2.3.3 Discussion
+Sometimes the application has confilcts with amiing at fully achieving this transparency. These conflicting requirements for generality and specialization have resulted in middleware solu- tions that are highly flexible.
 
-##### 2.3.4 Layered Architectures
+#### 2.4 SELF-MANAGEMENT INDISTRIBUTED SYSTEMS
+When adaptation needs to be done automatically, we need to figure out a strong interplay between system architectures and software architectures. In this section we pay explicit attention to organizing distributed systems as high-level feedback-control systems allowing automatic adaptations to changes. It is autonomic computing.
+
+##### 2.4.1 The Feedback Control Model
+Most have in common (either explicitly or implicitly) is the assumption that adaptations take place by means of one or more feedback control loops.
+
+First, the system itself needs to be monitored, which requires that various aspects of the system need to be measured. For some reasons, a feedback control loop generally contains a logical metric estimation component.
+
+Another part of the feedback control loop analyzes the measurements and compares these to reference values.
+
+The last group of components consist of various mechanisms to directly influence the behavior of the system.
+
+Let us now take a look at a few concrete examples on how to monitor, analyze, and correct distributed systems in an automatic fashion. These examples will also illustrate this distinction between logical and physical organization.
+
+![image.png](../assets/image12.png)
+
+##### 2.4.2 Example: Systems Monitoring with Astrolabe
+
+Astrolabe is a system that can support general monitoring of very large distributed systems.
+
+Astrolabe organizes a large collection of hosts into a hierarchy of zones. The lowest-level zones consist of just a single host, which are subsequently grouped into zones of increasing size. The top-level zone covers all hosts. Every host runs an Astrolabe process, called an agent, that collects information on the zones in which that host is contained. The agent also communicates with other agents with the aim to spread zone information across the entire system.
+
+We can see that the Astrolabe system has three hosts to compute the average.
+![image.png](../assets/image13.png)
+
+##### 2.4.3 Example: Differentiating Replication Strategies in Globule
+
+
+
+
+
+
+
+
+
+
+
+
+
 
