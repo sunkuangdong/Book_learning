@@ -109,6 +109,34 @@ We can see that the Astrolabe system has three hosts to compute the average.
 
 ##### 2.4.3 Example: Differentiating Replication Strategies in Globule
 
+Let us now take a look at Globule, a collaborative content distribution network. Globule relies on end-user servers being placed in the Internet, and that these servers collaborate to optimize performance through replication of Web pages.
+
+Each time the source server collects enough page access data, it performs a simulation analysis and tries different replication schemes. Each scheme is calculated using a formula, considering factors such as response delay, bandwidth consumption, and consistency of replicas. Finally, the replication strategy with the lowest cost is chosen to deploy page replicas.
+
+![image.png](../assets/image14.png)
+
+##### 2.4.4 Example: Automatic Component Repair Management in Jade
+
+When maintaining clusters of computers, each running sophisticated servers, it becomes important to alleviate management problems. One approach that can be applied to servers that are built using a component-based approach, is to detect component failures and have them automatically replaced.
+
+Being a component-based system, this automatic repair requires specific support to allow components to be added and removed at runtime. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
