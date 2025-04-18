@@ -45,4 +45,11 @@ Disadvantages of LWPs:
 
 ### 3.1.2 Threads in Distributed Systems
 
+An important property of threads is that they can provide a convenient means of allowing blocking system calls without blocking the entire process in which the thread is running.
+
+#### Multithreaded Clients
+
+To establish a high degree of distribution transparency, distributed systems that operate in wide-area networks may need to conceal long interprocess message propagation times. The round-trip delay in a wide-area network can easily be in the order of hundreds of milliseconds or sometimes even seconds.
+
+#### Multithreaded Servers
 
