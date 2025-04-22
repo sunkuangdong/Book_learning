@@ -53,3 +53,4 @@ To establish a high degree of distribution transparency, distributed systems tha
 
 #### Multithreaded Servers
 
+To understand the benefits of threads for writing server code, consider the organization of a file server that occasionally has to block waiting for the disk. The file server normally waits for an incoming request for a file operation, subse- quently carries out the request, and then sends back the reply.
