@@ -54,3 +54,26 @@ To establish a high degree of distribution transparency, distributed systems tha
 #### Multithreaded Servers
 
 To understand the benefits of threads for writing server code, consider the organization of a file server that occasionally has to block waiting for the disk. The file server normally waits for an incoming request for a file operation, subse- quently carries out the request, and then sends back the reply.
+
+## 3.2 VIRTUALIZATION
+
+On a single-processor computer, this simultaneous execution is, of course, an illusion. As there is only a single CPU, only an instruction from a single thread or process will be executed at a time. By rapidly switching between threads and processes, the illusion of parallelism is created.
+
+This separation between having a single CPU and being able to pretend there are more can be extended to other resources as well, leading to what is known as resource virtualization.
+
+### 3.2.1 The Role of Virtualization in Distributed Systems
+
+Why virtualization is important for distributed systems?
+* One of the most important reasons for introducing virtualization, was to allow legacy software to run on expensive mainframe hardware. 
+
+### 3.2.2 Architectures of Virtual Machines
+
+It is important to realize that computer systems generally offer four different types of interfaces, at four different levels:
+
+1. An interface between the hardware and software, consisting of ma- chine instructions that can be invoked by any program.
+2. An interface between the hardware and software, consisting of ma- chine instructions that can be invoked only by privileged programs, such as an operating system.
+3. An interface consisting of system calls as offered by an operating system.
+4. An interface consisting of library calls, generally forming what is known as an application programming interface (API). In many cases, the aforementioned system calls are hidden by an API.
+
+![image](../assets/image15.png)
+
