@@ -77,3 +77,22 @@ It is important to realize that computer systems generally offer four different 
 
 ![image](../assets/image15.png)
 
+Virtualization can take place in two different ways.
+* First, we can build a run-time system that essentially provides an abstract instruction set that is to be used for executing applications. 
+* Virtual Machine Monitor (VMM)
+
+## 3.3 CLIENTS
+
+### 3.3.1 Networked User Interfaces
+
+A major task of client machines is to provide the means for users to interact with remote servers.
+
+* First, for each remote service the client machine will have a separate counterpart that can contact the service over the network.
+* A second solution is to provide direct access to remote services by only offer- ing a convenient user interface. 
+
+![image](../assets/image16.png)
+
+### 3.3.2 Client-Server Programming Paradigms
+
+### 3.3.3 Client-Server Programming in Distributed Systems
+
